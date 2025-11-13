@@ -1,0 +1,156 @@
+Linear Regression is a supervised machine-learning technique used to model the relationship between a dependent variable (Y) and one or more independent variables (X).
+It assumes that this relationship can be represented using a straight line, making it one of the simplest and most widely used statistical methods.
+
+In simple terms:
+
+Linear regression finds the best-fit straight line through your data that minimizes the total error between actual values and predicted values.
+
+These differences between observed values (Y) and predicted values (Ŷ) are called errors or residuals.
+
+📌 Formula of Simple Linear Regression
+𝑌
+^
+=
+𝑏
+0
++
+𝑏
+1
+𝑋
+Y
+^
+=b
+0
+	​
+
++b
+1
+	​
+
+X
+
+Where:
+
+𝑌
+^
+Y
+^
+ = Predicted value
+
+𝑏
+0
+b
+0
+	​
+
+ = Intercept
+
+𝑏
+1
+b
+1
+	​
+
+ = Slope
+
+𝑋
+X = Input variable
+
+Slope formula:
+
+𝑏
+1
+=
+∑
+(
+𝑋
+−
+𝑋
+ˉ
+)
+(
+𝑌
+−
+𝑌
+ˉ
+)
+∑
+(
+𝑋
+−
+𝑋
+ˉ
+)
+2
+b
+1
+	​
+
+=
+∑(X−
+X
+ˉ
+)
+2
+∑(X−
+X
+ˉ
+)(Y−
+Y
+ˉ
+)
+	​
+
+
+Intercept formula:
+
+𝑏
+0
+=
+𝑌
+ˉ
+−
+𝑏
+1
+𝑋
+ˉ
+b
+0
+	​
+
+=
+Y
+ˉ
+−b
+1
+	​
+
+X
+ˉ
+📘 Example
+
+Suppose you are analyzing Study Hours (X) vs Exam Scores (Y).
+
+Hours	Score
+2	50
+4	65
+5	70
+7	85
+8	88
+
+Linear regression will try to fit a straight line that best predicts the score from the hours studied.
+
+📊 Scatter Plot with Errors (Residuals)
+
+Below is the scatter plot showing:
+
+Data points
+
+Regression best-fit line
+
+Vertical error bars showing residuals
+
+(Generated based on synthetic data.)
+
+✔️ This visually shows how far each point is from the predicted line.
+
